@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+span {
+  color: #94a0aa;
+  padding-left: 10px;
+}
+a img {
+  width: 100%;
+  min-width: 100px;
+  max-width: 100px;
+  padding: 5px 0px 10px 15px;
+
+}
+nav a, ul li, footer {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  background-color: #94a0aa;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 7px;
+}

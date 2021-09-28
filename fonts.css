@@ -1,0 +1,30 @@
+h1, h2, span, a {
+  font-family: 'Amarante', cursive;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+nav a, a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline-flex;
+  color: black;
+}
+nav, footer {
+  background-color: #373332;
+}
+body {
+  background-color: #8A817E;  
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a button {
+  background-color: #8A817E;
+}
+button span{
+  color: black;
+}
