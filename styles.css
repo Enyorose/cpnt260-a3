@@ -24,3 +24,24 @@ ul li {
   border-radius: 5px;
   margin: 7px;
 }
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  background-color: #DBD9D8;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px;
+}
+figcaption {
+min-width: 20ch
+
+}
