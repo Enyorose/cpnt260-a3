@@ -30,18 +30,27 @@ main {
   grid-gap: 1rem;
   margin-left: 20px;
   margin-right: 20px;
+  height: 300px;
 }
 img {
   max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 figure {
   background-color: #DBD9D8;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 20px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
-figcaption {
-min-width: 20ch
 
+figcaption {
+min-width: 20ch;
+padding-top: 10px;
+text-align: center;
+}
+.too-short {
+  padding-top: 20px;
 }
