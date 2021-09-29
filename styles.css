@@ -1,9 +1,33 @@
 body {
   background-color: #8A817E;  
   margin: 0;
-  /*display: flex;
-  flex-direction: column;*/
 }
+/****Fonts****/
+h1, h2, span, a {
+  font-family: 'Amarante', cursive;
+}
+p, figcaption, cite {
+  font-family: 'Roboto', sans-serif;
+}
+nav a, a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  color: black;
+}
+nav, footer {
+  background-color: #373332;
+}
+a button {
+  background-color: #8A817E;
+}
+button span{
+  color: black;
+}
+/****Fonts****/
+
+/****Nav****/
 nav {
   display: flex;
   justify-content: space-between;
@@ -19,23 +43,36 @@ a img {
   max-width: 100px;
   padding: 5px 0px 10px 15px;
 }
-nav a, ul li, footer {
+nav a, nav ul, footer, .footer-cr {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 ul li {
+  display: inline-flex;
   background-color: #94a0aa;
   padding: 5px 5px;
   border-radius: 5px;
   margin: 7px;
 }
+ul li:hover{
+  transform: scale(1.2);
+  background-color: #aeca70;
+  }
+  /****Nav*****/
+
+  /*****Header****/
 h1 {
   text-align: center;
 }
+  /****header***/
+
+  /****Photo Gallery****/
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
+  padding: 0em 1em;
 }
 img {
   max-width: 100%;
@@ -64,18 +101,29 @@ text-align: center;
 }
 .fa-heart:hover {
   transform: scale(1.2);
-  color: aqua;
+  color: #aeca70;
+}
+figcaption i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+  /****Photo Gallery****/
+
+  /****Footer****/
+footer {
+ position: relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ margin-top: 1em;
+ justify-content: space-between;
+}
+footer ul li {
+  padding: .2em;
+  margin-left: .2em;
+  text-align: center;
 }
 footer img{
   max-width: 50px;
 }
-i {
-  font-size: 16px;
-  padding-left: 5px;
-}
-footer {
- position: fixed;
- left: 0;
- bottom: 0;
- width: 100%;
-}
+  /****Footer****/
