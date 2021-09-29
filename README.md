@@ -16,3 +16,5 @@ Mountain Rock Face [https://pixabay.com/photos/carpathian-gorj-mountains-polovra
 Mountain Grassy Valley [https://pixabay.com/photos/mountains-valley-hills-panorama-6060582/]
 Hot springs [https://pixabay.com/photos/hot-spring-rock-water-hot-pool-1415536/]
 Pixabay license [https://pixabay.com/service/license/]
+
+Heart Icon [https://fontawesome.com/v5.15/icons/heart?style=solid]

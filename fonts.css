@@ -1,7 +1,4 @@
-*{
-  padding: 0;
-  margin: 0;
-}
+
 h1, h2, span, a {
   font-family: 'Amarante', cursive;
 }
@@ -18,19 +15,6 @@ ul li {
 }
 nav, footer {
   background-color: #373332;
-}
-body {
-  background-color: #8A817E;  
-  margin: 0;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-html{
-  height: 100%;
-}
-main{
-  height: 100%;
 }
 a button {
   background-color: #8A817E;
